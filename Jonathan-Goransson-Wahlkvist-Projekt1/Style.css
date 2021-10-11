@@ -1,0 +1,12 @@
+body {
+  background-color: black;
+  margin: 0pc;
+}
+
+.cont {
+  background-color: yellow;
+  height: 100vh;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  margin-top: 0pc;
+}
