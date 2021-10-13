@@ -1,27 +1,30 @@
 body {
   background-color: black;
   margin: 0pc;
+  display: flex;
+  flex-direction: row;
 }
 
 .cont {
   background-color: yellow;
-  height: 100vh;
   display: flex;
-  justify-content: center;
-  margin-top: 0pc;
+  flex-direction: row;
+  height: 100vh;
+  width: 40vw;
+  border: solid black 0.3pc;
 }
 
 header {
-  height: 15vh;
+  height: 20vh;
   width: 50vw;
-  border-bottom: solid black 1pc;
+  border-bottom: solid black 0.5pc;
 }
 
 .side {
-  height: 90vh;
+  height: 100vh;
+  width: 30vw;
   display: flex;
-  justify-content: start;
-  justify-content: space-evenly;
-  justify-content: end;
-  background-color: blue;
+  background-color: yellow;
+  flex-direction: row;
+  border: solid black 0.3pc;
 }
