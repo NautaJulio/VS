@@ -5,19 +5,21 @@ body {
   flex-direction: row;
 }
 
-.cont {
+.center {
   background-color: yellow;
   display: flex;
   flex-direction: row;
   height: 100vh;
-  width: 40vw;
+  width: 39vw;
   border: solid black 0.3pc;
 }
 
 header {
   height: 20vh;
-  width: 50vw;
-  border-bottom: solid black 0.5pc;
+  width: 40vw;
+  border: solid black 0.1pc;
+  border-bottom: solid black 0.6pc;
+  background-color: yellow;
 }
 
 .side {
@@ -25,6 +27,6 @@ header {
   width: 30vw;
   display: flex;
   background-color: yellow;
-  flex-direction: row;
+  flex-flow: row wrap;
   border: solid black 0.3pc;
 }
