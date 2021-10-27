@@ -22,13 +22,13 @@ body {
 }
 
 header {
+  display: flex;
+  flex-direction: column;
   height: 20vh;
   width: 40vw;
   border: solid black 0.1pc;
   border-bottom: solid black 0.6pc;
   background-color: rgb(255, 203, 29);
-  background-image: url(./Images/HRE.png);
-  background-size: 20%;
   padding: 1%;
 }
 
@@ -41,14 +41,32 @@ header .Links a {
 .Links {
   display: flex;
   justify-content: center;
-  justify-content: space-evenly;
   flex-wrap: wrap;
+  order: 2;
+}
 
+.EH {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  order: 0;
 }
 
 .EH img {
-  height: 10vh;
-  width: 5vw;
-  background-color: white;
-  border-radius: 1.7pc;
+  height: 8vh;
+  width: 4vw;
+  border-radius: 0pc;
+}
+
+.sig {
+  background-color: rgb(255, 203, 29);
+  border-radius: 1pc;
+}
+
+.HNames {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  order: 1;
 }
