@@ -37,6 +37,10 @@ header {
   padding-bottom: 0.8%;
 }
 
+header h1 {
+  text-align: center;
+}
+
 header .Links a {
   color: black;
   border: solid black;
@@ -57,17 +61,19 @@ header .Links a {
   border-radius: 1pc;
 }
 
-.EH img {
+.EH {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   justify-content: space-evenly;
-  height: 8vh;
-  width: 4vw;
   border-radius: 0pc;
+  padding: 0.5pc;
 }
 
 .EH p {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  float: left;
+}
+
+.EH img {
+  height: 1.5pc;
+  width: 1.5pc;
 }
