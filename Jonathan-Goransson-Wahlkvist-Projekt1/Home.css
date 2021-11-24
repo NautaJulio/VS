@@ -15,8 +15,6 @@ a {
   width: 59vw;
   border: solid black 0.3pc;
   justify-content: center;
-  flex-direction: column;
-  align-items: flex-start;
 }
 
 header {
@@ -27,8 +25,6 @@ header {
   background-color: rgb(255, 203, 29);
   padding-top: 0.5%;
   padding-bottom: 0.8%;
-  order: 1;
-  align-self: flex-start;
 }
 
 header h1 {
@@ -77,7 +73,6 @@ header h5 {
 }
 
 .EH p {
-  float: left;
   color: black;
   background-color: rgb(218, 170, 16);
   padding: 0.2pc;
@@ -86,6 +81,7 @@ header h5 {
 
 .EH a {
   padding: 0.1pc;
+  margin: 0pc;
 }
 
 .EH p:active {
@@ -96,6 +92,7 @@ header h5 {
 .EH img {
   height: 1.5pc;
   width: 1.5pc;
+  margin: 0pc;
 }
 
 .side {
@@ -117,11 +114,4 @@ header h5 {
 .side img {
   width: 4pc;
   height: 4pc;
-}
-
-.center main {
-  height: 60%;
-  width: 59vw;
-  border: solid black 0.3pc;
-  order: 2;
 }
