@@ -55,8 +55,8 @@ header h5 {
   flex-wrap: wrap;
   order: 2;
   justify-content: space-evenly;
-  border-top: black solid 0.3pc;
-  padding-top: 0.3pc;
+  border-bottom: black solid 0.3pc;
+  padding-bottom: 0.3pc;
 }
 
 .sig {
@@ -117,5 +117,5 @@ header h5 {
 }
 
 .Links .Current{
-  border: solid black 0.1pc;
+  border: solid black 0.2pc;
 }
