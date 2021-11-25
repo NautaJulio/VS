@@ -1,3 +1,8 @@
+body{
+  margin: 0pc;
+  background-color: rgb(255, 203, 29);
+}
+
 a{
   text-decoration: none;
 }
@@ -5,11 +10,12 @@ a{
 header {
   display: flex;
   flex-direction: column;
-  height: 20%;
+  height: 7pc;
   width: 100vw;
   background-color: rgb(255, 203, 29);
   padding-top: 0.5%;
   padding-bottom: 0.8%;
+  margin: 0pc;
 }
 
 header h1 {
@@ -47,3 +53,41 @@ header h5 {
 .Links .Current{
   border: solid black 0.2pc;
 }
+
+main{
+  display: flex;
+  margin-top: 1pc;
+  background-color: rgb(134, 105, 10);
+  height: 84pc;
+  width: 98vw;
+  flex-flow: column;
+  padding-left: 1vw;
+  padding-right: 1pc;
+}
+
+main h1{
+  justify-content: center;
+}
+
+main h4{
+  margin-bottom: 0pc;
+}
+
+main p{
+  margin-top: 0.5pc;
+}
+
+main img{
+  height: 15pc;
+  width: 12pc;
+  padding: 0.5pc;
+  background-color: rgb(216, 179, 58);
+  margin-bottom: 5pc;
+}
+
+footer{
+  background-color: rgb(255, 203, 29);
+  height: 9pc;
+  width: 100vw;
+}
+
