@@ -57,8 +57,6 @@ header h5 {
 main{
   display: flex;
   margin-top: 1pc;
-  background-color: rgb(134, 105, 10);
-  height: 84pc;
   width: 98vw;
   flex-flow: column;
   padding-left: 1vw;
@@ -86,7 +84,9 @@ main img{
 }
 
 footer{
-  background-color: rgb(255, 203, 29);
+  margin-top: 0.5pc;
+  padding-top: 0.2pc;
+  background-color: rgb(250, 211, 82);
   height: 9pc;
   width: 100vw;
 }

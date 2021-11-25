@@ -1,3 +1,8 @@
+body{
+  margin: 0pc;
+  background-color: rgb(255, 203, 29);
+}
+
 a{
     text-decoration: none;
 }
@@ -5,7 +10,7 @@ a{
 header {
     display: flex;
     flex-direction: column;
-    height: 20%;
+    height: 7pc;
     width: 100vw;
     background-color: rgb(255, 203, 29);
     padding-top: 0.5%;
@@ -22,7 +27,7 @@ header {
     text-align: center;
     margin-top: 0.5pc;
   }
-
+  
   .Links a {
     color: black;
     background-color: rgb(218, 170, 16);
@@ -48,3 +53,16 @@ header {
   .Links .Current{
     border: solid black 0.2pc;
   }
+
+  main{
+    display: flex;
+    background-color: rgb(255, 203, 29);
+    width: 100vw;
+    flex-flow: column;
+    padding-left: 1vw;
+    padding-right: 1pc;
+  }
+
+main img{
+  width: 20pc;
+}
