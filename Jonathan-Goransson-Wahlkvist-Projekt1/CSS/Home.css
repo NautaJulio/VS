@@ -63,37 +63,6 @@ header h5 {
   border-radius: 1pc;
 }
 
-.EH {
-  border-radius: 0pc;
-  padding: 0.5pc;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-}
-
-.EH p {
-  color: black;
-  background-color: rgb(218, 170, 16);
-  padding: 0.2pc;
-  border: solid rgb(126, 99, 13) 0.1pc;
-}
-
-.EH a {
-  padding: 0.1pc;
-  margin: 0pc;
-}
-
-.EH p:active {
-  background-color: rgb(175, 138, 15);
-  border: rgb(99, 78, 12) solid 0.1pc;
-}
-
-.EH img {
-  height: 1.5pc;
-  width: 1.5pc;
-  margin: 0pc;
-}
-
 .side {
   height: 98.5vh;
   width: 20.5vw;
@@ -120,10 +89,14 @@ header h5 {
   border: solid black 0.2pc;
 }
 
+main{
+  padding: 1pc;
+}
+
 main ul{
   background-color: rgb(250, 211, 82);
-  width: 10pc;
-  padding: 1pc;
+  width: 8pc;
+  padding: 2pc;
 }
 
 main ul a{

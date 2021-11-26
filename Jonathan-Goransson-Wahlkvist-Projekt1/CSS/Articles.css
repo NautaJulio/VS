@@ -60,20 +60,24 @@ main{
 }
 
 main h1{
-  justify-content: center;
+  text-align: center;
 }
 
 main h4{
   margin-bottom: 0pc;
+  background-color: rgb(250, 211, 82);
+  padding: 1pc;
 }
 
 main p{
-  margin-top: 0.5pc;
+  margin-top: 0pc;
+  background-color: rgb(250, 211, 82);
+  padding: 1pc;
 }
 
 main img{
   height: 15pc;
-  width: 12pc;
+  width: 10pc;
   padding: 0.5pc;
   background-color: rgb(216, 179, 58);
   margin-bottom: 5pc;
@@ -87,3 +91,7 @@ footer{
   width: 100vw;
 }
 
+footer ol{
+  background-color: rgb(250, 211, 82);
+  padding-bottom: 1pc;
+}

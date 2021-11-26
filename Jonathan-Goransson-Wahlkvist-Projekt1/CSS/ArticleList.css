@@ -58,11 +58,27 @@ header {
     display: flex;
     background-color: rgb(255, 203, 29);
     width: 100vw;
-    flex-flow: column;
     padding-left: 1vw;
     padding-right: 1pc;
   }
 
-  main ul a{
+  main ul{
+    display: flex;
     color: black;
+    margin-left: 3pc;
   }
+
+  main .HREGIF{
+    display: flex;
+    width: 50pc;
+    height: 55pc;
+    margin: 10pc;
+    margin-left: 40pc;
+    margin-bottom: 0pc;
+    flex-direction: column;
+  }
+
+main .HREGIF h3{
+  display: flex;
+  justify-content: center;
+}

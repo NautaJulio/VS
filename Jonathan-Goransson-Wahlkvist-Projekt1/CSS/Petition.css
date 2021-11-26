@@ -61,7 +61,17 @@ header {
     flex-flow: column;
     padding-left: 1vw;
     padding-right: 1pc;
+    margin-left: 50pc;
   }
+
+
+
+main form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20pc;
+}
 
 main img{
   width: 20pc;
