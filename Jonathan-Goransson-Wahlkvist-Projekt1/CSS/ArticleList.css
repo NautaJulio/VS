@@ -62,3 +62,7 @@ header {
     padding-left: 1vw;
     padding-right: 1pc;
   }
+
+  main ul a{
+    color: black;
+  }

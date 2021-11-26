@@ -50,10 +50,6 @@ header h5 {
   padding-bottom: 0.3pc;
 }
 
-.Links .Current{
-  border: solid black 0.2pc;
-}
-
 main{
   display: flex;
   margin-top: 1pc;
