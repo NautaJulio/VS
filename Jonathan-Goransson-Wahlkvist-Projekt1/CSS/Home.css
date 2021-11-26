@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allan&family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allan&family=Nunito:wght@200&family=PT+Sans&display=swap');
+
+*{
+  font-family: Nunito;
+}
+
 body {
   background-color: black;
   margin: 0pc;
@@ -10,7 +18,6 @@ a {
 .center {
   display: flex;
   background-color: rgb(255, 203, 29);
-  height: 100vh;
   width: 59vw;
   border: solid black 0.3pc;
   justify-content: center;
@@ -20,7 +27,6 @@ a {
 header {
   display: flex;
   flex-direction: column;
-  width: 60vw;
   background-color: rgb(255, 203, 29);
   padding-top: 0.5%;
   padding-bottom: 0.8%;
@@ -29,6 +35,7 @@ header {
 header h1 {
   text-align: center;
   margin-bottom: 0pc;
+  font-family: PT Sans;
 }
 
 header h5 {
@@ -41,6 +48,7 @@ header h5 {
   background-color: rgb(218, 170, 16);
   padding: 0.2pc;
   border: solid rgb(126, 99, 13) 0.1pc;
+  font-family: PT Sans;
 }
 
 .Links a:active {
@@ -59,12 +67,12 @@ header h5 {
 }
 
 .sig {
-  background-color: rgb(255, 203, 29);
+  background-color: rgb(250, 211, 82);
   border-radius: 1pc;
+  height: 15c;
 }
 
 .side {
-  height: 98.5vh;
   width: 20.5vw;
   display: flex;
   background-color: rgb(255, 203, 29);
@@ -97,8 +105,35 @@ main ul{
   background-color: rgb(250, 211, 82);
   width: 8pc;
   padding: 2pc;
+  
 }
 
 main ul a{
   color: black;
+}
+
+main img{
+  width: 20pc;
+  height: 25pc;
+}
+
+.H1{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.H2{
+  display: flex;
+  justify-content: space-between;
+  margin: 4pc;
+  margin-top: 2pc;
+}
+
+main h3{
+  font-family: PT Sans;
+}
+
+main h2{
+  font-family: PT Sans;
 }

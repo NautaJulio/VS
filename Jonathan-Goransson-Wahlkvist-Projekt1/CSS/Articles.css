@@ -1,6 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allan&family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allan&family=Nunito:wght@200&family=PT+Sans&display=swap');
+
+*{
+  font-family: Nunito;
+}
+
 body{
   margin: 0pc;
   background-color: rgb(255, 203, 29);
+  padding-bottom: 0pc;
 }
 
 a{
@@ -11,7 +20,6 @@ header {
   display: flex;
   flex-direction: column;
   height: 7pc;
-  width: 100vw;
   background-color: rgb(255, 203, 29);
   padding-top: 0.5%;
   padding-bottom: 0.8%;
@@ -21,6 +29,7 @@ header {
 header h1 {
   text-align: center;
   margin-bottom: 0pc;
+  font-family: PT Sans;
 }
 
 header h5 {
@@ -33,6 +42,7 @@ header h5 {
   background-color: rgb(218, 170, 16);
   padding: 0.2pc;
   border: solid rgb(126, 99, 13) 0.1pc;
+  font-family: PT Sans;
 }
 
 .Links a:active {
@@ -53,17 +63,18 @@ header h5 {
 main{
   display: flex;
   margin-top: 1pc;
-  width: 98vw;
   flex-flow: column;
   padding-left: 1vw;
   padding-right: 1pc;
 }
 
-main h1{
+main h2{
   text-align: center;
+  font-family: PT Sans;
 }
 
 main h4{
+  font-family: PT Sans;
   margin-bottom: 0pc;
   background-color: rgb(250, 211, 82);
   padding: 1pc;
@@ -83,12 +94,16 @@ main img{
   margin-bottom: 5pc;
 }
 
+main .HI{
+  display: flex;
+  justify-content: space-evenly;
+}
+
 footer{
   margin-top: 0.5pc;
   padding-top: 0.2pc;
   background-color: rgb(250, 211, 82);
   height: 9pc;
-  width: 100vw;
 }
 
 footer ol{
